@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">?
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="result.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Calculator</h2>
+
+        <input type="text" name="num-one" id="num-one" placeholder="First Number">
+        <input type="text" name="num-two" id="num-two" placeholder="Second Number">
+        <br><br>
+
+        <input type="radio" name="sign-area" id="box1" value="add" checked><b>+</b>
+        <input type="radio" name="sign-area" id="box2" value="subtract" checked><b>-</b>
+        <input type="radio" name="sign-area" id="box3" value="multiply" checked><b>*</b>
+        <input type="radio" name="sign-area" id="box4" value="divide" checked><b>/</b>
+        <br><br>
+
+        <button type="button" onclick="outcome()">Calculate</button>
+        <h1 id="resultArea"></h1>
+    </div>
+
+
+</body>
+</html>
